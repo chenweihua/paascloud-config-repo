@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   rabbitmq:
-    host: 192.168.1.140 
+    host: 192.168.1.140
     port: 5672
     username: guest
     password: guest
@@ -13,8 +13,8 @@ spring:
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: paascloud
-    password: 123456
+    username: root
+    password: Chenwh0!
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
     min-idle: 10
