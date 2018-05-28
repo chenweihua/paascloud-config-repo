@@ -74,9 +74,9 @@ paascloud:
       expiredMinutes: 120
   mail:
     host: smtp.sina.com
-    username: 'your email address'
-    password: 'your email password'
-    test-connection: false
+    username: 'hnchenwh@sian.com'
+    password: 'cwh751019'
+    test-connection: true
     properties:
       mail:
         smtp:
