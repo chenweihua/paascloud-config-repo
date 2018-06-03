@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   rabbitmq:
-    host: 192.168.1.140
+    host: 192.168.1.170
     port: 5672
     username: guest
     password: guest
