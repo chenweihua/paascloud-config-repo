@@ -13,8 +13,8 @@ spring:
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: Chenwh0!
+    username: paascloud
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
     min-idle: 10
@@ -100,11 +100,11 @@ paascloud:
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: 'your qiniu accessKey'
-      secretKey: 'your qiniu secretKey'
+      accessKey: 'X7hRR-or32oOZ_Er07CYend4o_lCskQTgNiqGZvJ'
+      secretKey: 'SSJm0Cn0-BQu6yVjL9rCDtlrhkLvY-Dxhbfsb1nE'
     oss:
-      privateHost: 'your qiniu oss private host'
-      publicHost: 'your qiniu oss public host'
+      privateHost: 'oky028din.bkt.clouddn.com'
+      publicHost: 'oky028din.bkt.clouddn.com'
   alipay:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
